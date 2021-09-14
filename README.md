@@ -19,7 +19,12 @@
 
 ②ボタン「方眼紙テスト」を押す
 
+![説明1](https://user-images.githubusercontent.com/73621859/133213624-e60ab1cd-20e4-4fbd-8d03-30138adb02fd.jpg)
+
+
 ③シート「方眼紙」が方眼紙上になる
+
+![説明2](https://user-images.githubusercontent.com/73621859/133213688-62adcf54-81b4-450c-af51-46679c570515.jpg)
 
 
 ## 設定
