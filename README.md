@@ -13,7 +13,7 @@
 シートを方眼紙にする
 
 # 使い方
-実行サンプル「Sample ModGraphPaper.xlsm」の使い方
+実行サンプル「Sample_GraphPaper.xlsm」の使い方
 
 ①シート「入力」にてピクセル値を整数で入力する
 
@@ -28,7 +28,7 @@
 
 
 ## 設定
-実行サンプル「Sample ModGraphPaper.xlsm」の中の設定は以下の通り。
+実行サンプル「Sample_GraphPaper.xlsm」の中の設定は以下の通り。
 
 
 ### 設定1（使用モジュール）
