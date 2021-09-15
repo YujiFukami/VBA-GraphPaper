@@ -7,7 +7,7 @@ Option Explicit
 
 
 
-Sub ピクセル値から方眼紙を作る(TargetSheet As Worksheet, InputPx&, Optional MessageIrunaraTrue As Boolean = False)
+Sub MakeGraphPaper(TargetSheet As Worksheet, InputPx&, Optional MessageIrunaraTrue As Boolean = False)
 '引数
 'TargetSheet            ・・・対象のシート
 'InputPx                ・・・マス幅（＝高さ）のピクセル値
