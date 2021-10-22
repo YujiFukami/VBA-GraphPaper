@@ -1,19 +1,19 @@
 Attribute VB_Name = "ModGraphPaper"
 Option Explicit
 
-'20210914作成
-'シートを方眼紙にする
-'方眼紙・・・全部のセルが縦横比が1:1のマス
+'MakeGraphPaper・・・元場所：FukamiAddins3.ModGraphPaper
+'PxToWidth     ・・・元場所：FukamiAddins3.ModGraphPaper
 
 
 
-Sub MakeGraphPaper(TargetSheet As Worksheet, InputPx&, Optional MessageIrunaraTrue As Boolean = False)
+Sub MakeGraphPaper(TargetSheet As Worksheet, InputPx As Long, Optional MessageIrunaraTrue As Boolean = False)
 '引数
 'TargetSheet            ・・・対象のシート
 'InputPx                ・・・マス幅（＝高さ）のピクセル値
 '[MessageIrunaraTrue]   ・・・方眼紙作成後にメッセージを表示するかどうか
 
-    Dim SetHeight#, SetWidth#
+    Dim SetHeight As Double
+    Dim SetWidth  As Double
     
     SetHeight = 0.6 * InputPx
     
@@ -34,10 +34,10 @@ Sub MakeGraphPaper(TargetSheet As Worksheet, InputPx&, Optional MessageIrunaraTr
     
 End Sub
 
-Private Function PxToWidth#(Px&)
+Private Function PxToWidth(Px As Long)
 'ピクセル値を幅に変換する
 
-    Dim Output#
+    Dim Output As Double
     If Px <= 4 Then
         Output = 0.06 * Px
     ElseIf Px = 5 Then
@@ -55,6 +55,5 @@ Private Function PxToWidth#(Px&)
     PxToWidth = Output
     
 End Function
-
 
 
